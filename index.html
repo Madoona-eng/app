@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-white"
+      style="border: 1px solid white"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <h5 class="fashion"><span style="color: blue">F</span>ashion</h5>
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input type="text" placeholder="search" style="margin-left: 20px;width:600px;padding:0 10px;margin-right: 10px; border-radius: 10px;border:1px solid rgb(104, 96, 96);"/>
+
+            <button class="btn btn-info text-white" type="submit">
+              SEARCH
+            </button>
+          </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-0 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pages/service.html">Services</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link active" href="blog/blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="products/Shop/product.html">Shop</a></li>
+                <li><a class="dropdown-item" href="products/Fproduct/feature_product.html">Feature product</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="products/Narrival/newArrival.html">New Arrival</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="pages/form.html "
+                title="Create Account"
+                ><i class="fa-solid fa-user"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="mainSection1"
+      style="display: flex; justify-content: space-evenly"
+    >
+      <div
+        style="
+          width: 15%;
+          height: 400px;
+          background-color: white;
+          margin-top: 80px;
+        "
+      >
+        <h3 style="color: blue; padding-top: 70px">
+          Sales Products For Women
+        </h3>
+        <ul style="color: black; margin-left: 20px">
+          <li>Fastest</li>
+          <li>Flexible</li>
+          <li>Unique</li>
+          <li>Minimalist</li>
+        </ul>
+
+        <a
+          class="btn btn-info"
+          type="submit"
+          style="
+            color: black;
+            margin-left: 30px;
+            padding: 8px 20px;
+            font-weight: bolder;
+          "
+          href="#contactUs"
+        >
+          Contact Us
+        </a>
+      </div>
+
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="width: 55%; height: 400px; margin-top: 80px"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="photos/4021509.jpg"
+              class="d-block w-100"
+              alt="..."
+              width="500"
+              height="400"
+              style="opacity: 0.8"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="photos/online-shopping-web-shop-e-shopping-concept.jpg"
+              class="d-block w-100"
+              alt="..."
+              width="500"
+              height="400"
+              style="opacity: 0.8"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="photos/download.jfif"
+              class="d-block w-100"
+              alt="..."
+              width="700"
+              height="400"
+              style="opacity: 0.8"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="photos/5428120b64db90cd12a22028ce3a0809.webp"
+              class="d-block w-100"
+              alt="..."
+              width="500"
+              height="400"
+              style="opacity: 0.8"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="photos/shocked-two-women-friends-holding-shopping-bags-using-mobile-phone.jpg"
+              class="d-block w-100"
+              alt="..."
+              width="500"
+              height="400"
+              style="opacity: 0.8"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="
+          width: 15%;
+          height: 400px;
+          background-color: white;
+          margin-top: 80px;
+        "
+        class="Lastsection"
+      >
+        <h3 style="color:blue; padding-top: 70px">
+          Shop Modern & Fashion
+        </h3>
+        <ul style="color: black; margin-left: 20px">
+          <div style="margin-bottom: 5px">
+            <i class="fa-regular fa-user fs-5" style="color:rgb(1, 187, 187);"></i>
+            <a href="pages/form.html">Account</a>
+          </div>
+          <div style="margin-bottom: 5px">
+            <i
+              class="fa-regular fa-circle-question fs-5"
+              style="color:rgb(1, 187, 187)"
+            ></i>
+
+            <a href="pages/help.html">Help</a>
+          </div>
+          <div style="margin-bottom: 5px">
+            <i
+              class="fa-solid fa-cart-shopping fs-5"
+              style="color:rgb(1, 187, 187);"
+            ></i>
+            <a href="products/Shop/cart.html">Cart</a>
+          </div>
+        </ul>
+
+        <img
+          src="IMG6/E-Commerce-Logo-Design-scaled.jpg"
+          style="width: 200px; height: 150px; border-radius: 10px"
+        />
+      </div>
+    </div>
+
+    <div
+      style="
+        height: 130px;
+        background-color: white;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+      "
+      class="imageClass"
+    >
+      <img src="IMG6/1 (3).jpg" />
+      <img src="IMG6/313ECM-l31L._AC_.jpg" />
+      <img src="IMG6/61LfYyo8KlL._AC_SX466_.jpg" />
+      <img src="IMG6/41BymcoeEML._AC_SX466_.jpg" />
+      <img src="IMG6/31HbEmH1QXL._AC_SY400_.jpg" />
+      <img src="IMG6/mod37.jpg" />
+      <img src="IMG6/فساتين-سهرة-محجبات-1.jpg" />
+      <img src="IMG6/mod22.jpg" />
+    </div>
+
+    <div class="aboutUs vh-100" id="about">
+      <h2>AboutUs</h2>
+      <div style="display: flex; justify-content: space-between">
+        <div class="aboutContent">
+          <p>
+            Our company was founded in 2008. We operate three warehouses and a
+            showroom of 3000m2 only a few kilometers away from Budapest, very
+            convenient to access both by plane or car.
+          </p>
+
+          <p>
+            We sell leftover stocks, surplus stocks, sample collections of
+            well-known fashion brands. All products are genuine, A-grade and
+            brand new with their original tags on. We buy our garments directly
+            from European distributors and always make sure that the quality of
+            the products is impeccable.
+          </p>
+          <p>
+            Our range of products is growing wider continuously, we offer more
+            than 60 well-known and popular brands to our partners. Our stock is
+            renewed constantly, with daily new offers (you can subscribe to our
+            newsletter). Our stocklots are predominantly made up of leftover or
+            sample collections of popular and globally known fashion brands,
+            however, at the same time we include more exclusive, less known, but
+            excellent quality brands too.
+          </p>
+          <p>
+            We value flexibility, try to offer reasonable and affordable prices,
+            and are aware well of the trends and changes on the market. Unlike
+            other companies, we offer the unique possibility to select goods
+            piece by piece, regarding models and sizes. In our showroom there
+            are more than 40.000 articles on display. At the same time, our
+            products can be hand-picked from our warehouse, from more than
+            1.000.000 articles in original boxes or sacks. We also offer smaller
+            mixes of clothes to our clients. Sample mixes of minimum quantity,
+            as well as sales on pallets are also possible, depending on our
+            clients’ demands. We ship worldwide with DPD.
+          </p>
+          <p>
+            Wholesalers and retailers both have the possibility to purchase from
+            us, the minimum purchase quantity is 30 pieces. Thanks to our
+            long-term, personal and international business relationships and
+            connections, we are offering stocklots at the most advantageous
+            prices.
+          </p>
+
+          <p>
+            Our team speaks Hungarian, Romanian, English, French, Arabic and
+            Danish. We encourage you to come and visit us for a coffee, so you
+            can see our showroom and current offers in person. We will help you
+            arrange transportation, accommodation, should you decide to visit
+            us. If needed, business advice and guidance is also offered by our
+            experienced sales team, if you are new in the fashion industry.
+          </p>
+
+          <p>We hope to see you soon!</p>
+        </div>
+        <div class="imageAbout">
+          
+          <p><span>C</span>HOOSE<span>Y</span>OUR<span>F</span>ASHION</p>
+       
+        <img
+          src="photos/Fashion-Email-Template.jpg"
+          class="d-block w-100"
+          alt="..."
+          width="600"
+          height="700"
+          style="opacity: 0.8"
+        />
+      </div>
+    </div>
+
+  
+
+    <div class="contact d-flex bg-image" id="contactUs">
+      <div class="location w-50">
+        <h3>Location</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          optio.
+        </p>
+        <div class="follow">
+          <h3>Follow Us</h3>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p>&copy; 2023 privacy policy</p>
+        </div>
+      </div>
+      <div class="contact-form w-50">
+        <h3>Contact Form</h3>
+        <form>
+          <div>
+            <input
+              type="text"
+              placeholder="Enter Your Name"
+              style="height: 37px"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              placeholder="Enter a valid email"
+              style="height: 37px"
+            />
+          </div>
+          <div class="textarea">
+            <textarea placeholder="Enter Your Message"></textarea>
+          </div>
+          <button>submit</button>
+        </form>
+      </div>
+    </div> 
+
+    <script src="js/script.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.0_jquery.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_2.11.8_umd_popper.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_bootstrap_5.3.0_js_bootstrap.min.js"></script>
+  </body>
+</html>
